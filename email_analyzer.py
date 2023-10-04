@@ -3,7 +3,7 @@ import re
 from textblob import TextBlob
 
 # Set your OpenAI API key
-api_key = "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"
+api_key = ""
 openai.api_key = api_key
 
 def extract_subject_and_sender(email_text):
